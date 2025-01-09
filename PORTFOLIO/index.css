@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+.navbar {
+    background-color: #007bff;
+}
+.navbar-brand, .navbar-nav .nav-link {
+    color: white !important;
+}
+.hero-section {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #e9ecef;
+}
+.hero-section img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #007bff;
+    margin-bottom: 20px;
+}
+.section-heading {
+    color: #007bff;
+    margin: 30px 0;
+    text-align: center;
+}
+.project-card {
+    margin-bottom: 30px;
+}
+.project-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+.social-icons a {
+    color: #007bff;
+    margin: 0 10px;
+    font-size: 1.5rem;
+}
+.project-card img.project-img {
+width: 800px; 
+height: auto;
+max-height: 300px; 
+object-fit: cover; 
+display: block;
+margin: 0 auto; 
+}
+ /* Contact Section Styling */
+#contact {
+background-color: #f9f9f9;
+padding: 60px 0;
+text-align: center;
+}
+
+#contact .container {
+max-width: 800px;
+margin: 0 auto;
+}
+
+#contact h2 {
+font-size: 2.5rem;
+margin-bottom: 20px;
+}
+
+#contact p {
+font-size: 1.2rem;
+margin-bottom: 30px;
+}
+
+#contact .form-group {
+margin-bottom: 20px;
+}
+
+#contact label {
+font-size: 1rem;
+font-weight: bold;
+display: block;
+margin-bottom: 5px;
+}
+
+#contact .form-control {
+width: 100%;
+padding: 10px;
+font-size: 1rem;
+border: 1px solid #ccc;
+border-radius: 5px;
+box-sizing: border-box;
+}
+
+#contact textarea.form-control {
+resize: vertical;
+}
+
+#contact button {
+background-color: #007bff;
+color: white;
+border: none;
+padding: 10px 20px;
+font-size: 1.1rem;
+cursor: pointer;
+border-radius: 5px;
+transition: background-color 0.3s ease;
+}
+
+#contact button:hover {
+background-color: #0056b3;
+}
