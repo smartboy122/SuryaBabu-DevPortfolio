@@ -114,3 +114,51 @@ transition: background-color 0.3s ease;
 #contact button:hover {
 background-color: #0056b3;
 }
+
+/* Internship Section Styling */
+#internship {
+  background-color: #f4f4f4;
+  padding: 60px 0;
+}
+
+#internship .container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#internship h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#internship h3 {
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+#internship p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+#internship ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#internship ul li {
+  font-size: 1.1rem;
+  margin: 10px 0;
+  text-align: left;
+}
+
+#internship ul li strong {
+  font-weight: bold;
+}
+
+#internship h4 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
